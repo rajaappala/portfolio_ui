@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
 
 function MainLayout(){
-    return <div>
+    return (
         <header>
+            <div> React Meetups</div>
             <nav>
                 <ul>
                     <li>
@@ -17,7 +18,7 @@ function MainLayout(){
                 </ul>
             </nav>
         </header>
-    </div>
+    )
 }
 
 export default MainLayout
